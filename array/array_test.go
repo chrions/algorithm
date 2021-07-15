@@ -207,3 +207,9 @@ func TestReadBinaryWatch(t *testing.T) {
 	ret := readBinaryWatch(1)
 	t.Log(ret)
 }
+
+func TestMaximumElementAfterDecrementingAndRearranging(t *testing.T) {
+	arr := []int{1, 2, 3, 4, 5}
+	ret := maximumElementAfterDecrementingAndRearranging(arr)
+	t.Log(ret)
+}
