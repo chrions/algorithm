@@ -213,3 +213,9 @@ func TestMaximumElementAfterDecrementingAndRearranging(t *testing.T) {
 	ret := maximumElementAfterDecrementingAndRearranging(arr)
 	t.Log(ret)
 }
+
+func TestSearch(t *testing.T) {
+	arr := []int{3, 3, 3}
+	ret := search(arr, 3)
+	t.Log(ret)
+}
