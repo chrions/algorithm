@@ -44,12 +44,6 @@ func TestThreeSum(t *testing.T) {
 	t.Log(ret)
 }
 
-//1,1,2,3,5,8,13
-func TestFibo(t *testing.T) {
-	ret := Fibo(7)
-	t.Log(ret)
-}
-
 func TestNumWays(t *testing.T) {
 	ret := NumWays(100)
 	t.Log(ret)
@@ -217,5 +211,11 @@ func TestMaximumElementAfterDecrementingAndRearranging(t *testing.T) {
 func TestSearch(t *testing.T) {
 	arr := []int{3, 3, 3}
 	ret := search(arr, 3)
+	t.Log(ret)
+}
+
+func TestMaxSubArray(t *testing.T) {
+	arr := []int{1}
+	ret := maxSubArray(arr)
 	t.Log(ret)
 }
