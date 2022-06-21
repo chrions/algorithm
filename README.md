@@ -1,2 +1,2 @@
 # algorithm
-算法
+go语言实现的算法
