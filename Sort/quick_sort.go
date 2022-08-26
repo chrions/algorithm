@@ -1,7 +1,7 @@
 package main
 
 //快排
-//时间复杂度O(logn)， 最坏时间复杂度O(n2)
+//时间复杂度O(nlogn)， 最坏时间复杂度O(n2)
 //通过搬移数据使快排的空间复杂度是 O(1)
 func QuickSort(arr []int) {
 	separateSort(arr, 0, len(arr)-1)
